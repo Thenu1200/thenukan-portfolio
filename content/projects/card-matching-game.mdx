@@ -1,0 +1,61 @@
+<div align="center">
+    ## A game engine created using OpenGL. 
+    This card matching game was created in order to grasp the fundamentals of graphics programming using the OpenGL library.
+</div>
+
+<div className="flex flex-col md:flex-row items-center gap-4">
+  <div className="md:w-1/2">
+    <video 
+    style={{ pointerEvents: 'none', float: right, marginLeft: '20px', marginBottom: '20px' }} 
+    autoPlay 
+    loop 
+    muted 
+    playsInline
+    >
+    <source src="/videos/card matching game demo 1.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div className="md:w-1/2">
+    After running the executable, a window titled "Card Match" opens up showing a 3D view of 8 cards faced downwards.
+    The user can click a card to flip it. Once 2 cards are flipped, if the cards match they disappear, otherwise they flip back.
+    Once all the cards are flipped, the board resets with new randomly placed cards.
+  </div>
+</div>
+
+<br />
+<div align="center">
+    Key components made for this project include the Camera class, Game logic class, Mouse picker class, and the Card class.
+    This project taught me important fundamentals in 3D graphics programming through making vertex and fragment shaders and using vertex buffer objects.
+</div>
+<br />
+
+<div className="flex flex-col md:flex-row items-center gap-4">
+  <div className="md:w-1/2">
+    The game also allows the user to move around the 3D space. While it isn't exactly necessary given the nature of the game. 
+    I found it amusing to give users the ability to cheat and look under the cards. 
+    Notice how cards can still be flipped no matter the change in perspective.
+  </div>
+  <div className="md:w-1/2">
+    <video 
+    style={{ pointerEvents: 'none', float: right, marginLeft: '20px', marginBottom: '20px' }} 
+    autoPlay 
+    loop 
+    muted 
+    playsInline
+    >
+    <source src="/videos/card matching game demo 2.mp4" type="video/mp4" />
+    </video>
+  </div>
+</div>
+<br />
+
+Tools and programming languages used for this project:
+- C++
+- GLSL
+- OpenGL library
+- Visual Studio Code
+- CMake
+- Git
+- Blender (For modelling and texturing the cards)
+
+Access the source files and run the project [here](https://github.com/Thenu1200/Card-Matching-Game)
