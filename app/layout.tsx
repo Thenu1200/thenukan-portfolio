@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Thenukan Velvelicham",
     images: [
       {
-        url: "/AboutPortrait.svg",
+        url: "/photos/AboutPortrait.svg",
         width: 1200,
         height: 630,
       },
